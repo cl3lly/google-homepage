@@ -1,9 +1,23 @@
-ul {
+.top-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     padding-bottom: 50px;
+  }
+
+.bottom-bar {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 5px;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   }
   
 li {
