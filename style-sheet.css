@@ -43,6 +43,25 @@ a:-webkit-any-link {
     text-decoration: none;
     }
 
+input[type=text] {
+  width: 48%;
+  margin-left: 26%;
+  margin-right: 26%;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid rgb(184, 185, 185);
+  padding: 13px;
+  box-sizing: border-box;
+  background-color: white;
+  background-image: url('./Images/googlemic.png');
+  background-position: 97%; 
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+
 .row img {
     display: block;
     margin-left: auto;
@@ -50,3 +69,17 @@ a:-webkit-any-link {
     padding-bottom: 50px;
     }
 
+button {
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
